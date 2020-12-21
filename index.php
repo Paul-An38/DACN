@@ -14,11 +14,14 @@
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen"> 
 	<link rel="stylesheet" href="assets/css/style.css">
     <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'> 
-    <script language="JavaScript">alert("Link lấy Source Code:   555565")
-    </script>
+    
     
 </head>
 <body>
+    <script language="JavaScript"> 
+        var action=setTimeout(function(){alert("Link lấy Source Code:   https://github.com/Paul-An38/DACN.git  ");}, 3000); 
+        function clearAlert(){ clearTimeout(action);}
+    </script>
     <!-- MENU -->
     <div class="navbar navbar-inverse " >
 		
